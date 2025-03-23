@@ -1,0 +1,85 @@
+/* Dashboard Container */
+.dashboard-container {
+    max-width: 800px;
+    margin: 80px auto 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Custom Steps Styling */
+  .custom-steps {
+    margin-bottom: 30px;
+  }
+  
+  /* Dashboard Content */
+  .dashboard-content h2 {
+    font-size: 28px;
+    color: #1e90ff; /* Dodger Blue */
+    margin-bottom: 15px;
+  }
+  
+  .dashboard-content p {
+    font-size: 16px;
+    color: #2d3436; /* Neutral dark color */
+    margin-bottom: 30px;
+  }
+  
+  /* Progress Circle Styling */
+  .progress-circle {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 30px auto;
+  }
+  
+  /* Progress Input Section */
+  .progress-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .progress-input label {
+    font-size: 16px;
+    color: #2d3436;
+  }
+  
+  .progress-input input[type="range"] {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .progress-value {
+    font-size: 16px;
+    font-weight: bold;
+    color: #1e90ff;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .dashboard-container {
+      margin: 40px 20px;
+      padding: 15px;
+    }
+    
+    .dashboard-content h2 {
+      font-size: 24px;
+    }
+    
+    .dashboard-content p {
+      font-size: 14px;
+    }
+    
+    .progress-circle {
+      width: 120px;
+      height: 120px;
+    }
+    
+    .progress-input label,
+    .progress-input .progress-value {
+      font-size: 14px;
+    }
+  }

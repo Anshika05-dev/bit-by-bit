@@ -1,0 +1,91 @@
+/* WorkSubmission.css */
+
+/* Container for the work submission page */
+.container {
+    max-width: 800px;
+    margin: 80px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Heading style */
+  .container h2 {
+    color: #1e90ff;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  /* Input field styling */
+  .input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Textarea styling */
+  .textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  /* File input styling */
+  .file-input {
+    margin-bottom: 15px;
+  }
+  
+  /* Preview container styling */
+  .preview-container {
+    margin-bottom: 15px;
+  }
+  
+  .preview {
+    max-width: 100%;
+    max-height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Button styling */
+  .btn {
+    padding: 12px 20px;
+    background-color: #1e90ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #187bcd;
+  }
+  
+  /* Responsive Styles for Mobile Devices */
+  @media (max-width: 600px) {
+    .container {
+      margin: 40px 10px;
+      padding: 15px;
+    }
+    
+    .container h2 {
+      font-size: 24px;
+    }
+    
+    .input, .textarea, .btn {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }

@@ -1,0 +1,88 @@
+/* Project.css */
+
+/* Container for the entire Project Management page */
+.container {
+    max-width: 800px;
+    margin: 80px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading styling */
+  .container h2 {
+    color: #1e90ff; /* Dodger Blue */
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+  
+  /* Section for creating a new project */
+  .create-project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Input field styling */
+  .input {
+    flex: 1 1 300px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Button styling */
+  .btn {
+    padding: 12px 20px;
+    background-color: #1e90ff; /* Dodger Blue */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #187bcd;
+  }
+  
+  /* Styling for the list of projects */
+  .project-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .project-list li {
+    padding: 12px;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 16px;
+    color: #2d3436; /* Neutral dark text */
+  }
+  
+  .project-list li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Responsive Styles for Mobile Devices */
+  @media (max-width: 600px) {
+    .container {
+      margin: 40px 10px;
+      padding: 15px;
+    }
+  
+    .container h2 {
+      font-size: 24px;
+    }
+  
+    .input, .btn {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }

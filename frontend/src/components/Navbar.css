@@ -1,0 +1,82 @@
+/* Navbar.css */
+
+/* Navbar container */
+.navbar {
+    background-color: #1e90ff; /* Dodger Blue */
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading styling */
+  .navbar-heading {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  /* Unordered list styling */
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* List items spacing */
+  .navbar ul li {
+    margin-left: 20px;
+  }
+  
+  /* Link styling */
+  .navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    color: #f0f0f0;
+  }
+  
+  /* Logout button styling */
+  .logout-button {
+    background-color: #ff4757; /* Contrasting red */
+    border: none;
+    color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-button:hover {
+    background-color: #e84118;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .navbar-heading {
+      margin-bottom: 10px;
+    }
+    
+    .navbar ul {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+    
+    .navbar ul li {
+      margin-left: 0;
+    }
+  }

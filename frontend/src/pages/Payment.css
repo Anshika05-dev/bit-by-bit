@@ -1,0 +1,79 @@
+/* Payment.css */
+
+/* Container styling */
+.container {
+    max-width: 600px;
+    margin: 80px auto;
+    padding: 20px;
+    background-color: #ffffff;  /* White background */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Heading styling */
+  .container h2 {
+    color: #1e90ff;           /* Dodger Blue */
+    font-size: 28px;
+    margin-bottom: 25px;
+  }
+  
+  /* Input field styling */
+  .input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Button styling */
+  .btn {
+    padding: 12px 20px;
+    background-color: #1e90ff;  /* Dodger Blue */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #187bcd;
+  }
+  
+  /* Success message styling */
+  .success-message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: green;
+    font-weight: bold;
+    animation: fadeInOut 3s ease-in-out;
+  }
+  
+  /* Fade in-out effect for the success message */
+  @keyframes fadeInOut {
+    0% { opacity: 0; }
+    10% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  
+  /* Responsive Styles for Mobile Devices */
+  @media (max-width: 600px) {
+    .container {
+      margin: 40px 10px;
+      padding: 15px;
+    }
+    
+    .container h2 {
+      font-size: 24px;
+    }
+    
+    .input, .btn {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }

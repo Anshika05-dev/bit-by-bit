@@ -1,0 +1,151 @@
+
+ 
+/* Dashboard Styling */
+.dashboard-container {
+  width: 100vw;  /* Full width of the viewport */
+  height: 80vh; /* Reduced height for better fit */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+/* Header Styling */
+h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Chart Styling */
+.chart-container {
+  width: 80%;
+  max-width: 900px;
+  height: 50vh; /* Reduced chart height */
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Make chart fully responsive */
+canvas {
+  width: 100% !important;
+  height: 100% !important;
+} */
+/* General Styling */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Hide navbar initially */
+.hidden-navbar {
+  display: none;
+}
+
+/* ✅ Navbar Styling */
+.navbar {
+  background-color: #007bff;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+/* ✅ Forms (Login/Register) */
+.form-container {
+  width: 100%;
+  max-width: 400px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 50px auto;
+}
+
+.form-container h2 {
+  text-align: center;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* ✅ Hide Navbar on Login & Register Pages */
+.no-navbar .navbar {
+  display: none;
+}
+
+/* ✅ Responsive Design */
+@media (max-width: 768px) {
+  .dashboard-container {
+      width: 90%;
+  }
+
+  .form-container {
+      width: 90%;
+  }
+}
